@@ -16,6 +16,8 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
+$rust-orange: #993300;
+$green: #99CC99;
 $blue: #1565c0;
 $dark-gray: #333;
 $medium-gray: #999;
@@ -23,10 +25,10 @@ $light-gray: #ddd;
 
 // Font Colors
 $base-font-color: $dark-gray;
-$action-color: $blue;
+$action-color: $green;
 
 // Border
-$base-border-color: $light-gray;
+$base-border-color: $rust-orange;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
