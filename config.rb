@@ -17,6 +17,7 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # Tells Middleman to generate relative paths for assets and links
+activate :directory_indexes
 activate :relative_assets
 set :relative_links, true
 
