@@ -18,7 +18,6 @@ page '/*.txt', layout: false
 
 # Tells Middleman to generate relative paths for assets and links
 activate :directory_indexes
-activate :relative_assets
 set :relative_links, true
 
 ###
@@ -67,7 +66,7 @@ page "/feed.xml", layout: false
 configure :build do
   # Minify CSS on build
   # activate :minify_css
-
+  activate :relative_assets
   # Minify Javascript on build
   # activate :minify_javascript
 end
