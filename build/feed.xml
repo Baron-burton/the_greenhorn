@@ -5,10 +5,45 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-01-31T00:00:00+00:00</updated>
+  <updated>2016-02-08T00:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>My First Meetup</title>
+    <link rel="alternate" href="http://blog.url.com/2016/02/08/my-first-meetup/"/>
+    <id>http://blog.url.com/2016/02/08/my-first-meetup/</id>
+    <published>2016-02-08T00:00:00+00:00</published>
+    <updated>2016-02-08T14:07:44+00:00</updated>
+    <author>
+      <name>Brandon Burton</name>
+    </author>
+    <content type="html">&lt;p&gt;It was at the evening of my first meet-up with NWRUG (North West Ruby User Group). I was excited. By encouraging myself to join this group I was opening myself up to a great deal of insight into what it takes to become a developer. I knew this was the start of something good for me.&lt;/p&gt;
+
+&lt;p&gt;  I walked into the building where the meet-up was being held (MadLab). On the first floor was NWRUG. I walked towards the table and as I began to set my things down I was quickly acknowledged and welcomed to the group. I was relieved that it was the members of the group who spoke up first because at the time I felt like I was in a completely alien environment. I almost didn’t want to introduce myself because I didn’t want to interrupt anyone’s conversation (the silly things you think when you’re meeting new people right?).  &lt;/p&gt;
+
+&lt;p&gt;With it being a hack night and not having a computer I thought I’d quietly watch people work through the problems, just observe and absorb. The theme for the night was a cryptographic challenge, another thing I knew nothing about. As much as I was content with just sitting in the back for my first night the members of the group were keen to have me paired up so that I could have a go at the challenge.   &lt;/p&gt;
+
+&lt;p&gt;The goal for the challenge was to use Ruby code to decrypt a message using two types of ciphers. Firstly, we were given an unreadable mass of letters that was encrypted using a Vigenere cipher and a mix of letters that had been encrypted using a Caesar cipher. We had to solve the Caesar cipher to reveal the keyword that would help solve our Vigenere cipher. So what are these ciphers? Good question!  &lt;/p&gt;
+
+&lt;p&gt;A Caesar cipher is a system of encryption wherein every occurrence of a particular letter is replaced by what is known as a cyphertext letter.Basically, you have two alphabets. In order to crack the Caesar cipher you need to know the shift associated with the cipher. For instance, a shift of 5 would mean the letter A in the cipher actually represents the letter F. You apply this shift to your coded text to reveal the secret message.  &lt;/p&gt;
+
+&lt;p&gt;After we had solved our the Caesar cipher it was on to the Vigenere. This particular cipher is quite tricky because there’s no simple one-to-one mapping of two texts. So how does it work?&lt;/p&gt;
+
+&lt;p&gt;Imagine that each letter of the alphabet represents a number starting with A = 0, B = 1, C = 2, etc. Knowing this we can then use a keyword to sneakily encrypt an entire message. As an example, let’s say our Caesar cipher keyword is “SURPRISE” and the message we want to encrypt is “Attack at first light”. Each letter of our keyword represents it’s own shifted alphabet so S is a shift of 18, U is a shift of 20 and so on. The trick is to apply the keyword on top of the text that you’re looking to encrypt like so;&lt;/p&gt;
+
+&lt;p&gt;Keyword:  SURPRI SE  SURPR   ISESU 
+Message:  ATTACK AT  FIRST   LIGHT&lt;/p&gt;
+
+&lt;p&gt;This results in the cipher: SNKPTS SX XCIHK TAKZN. Pretty neat!  &lt;/p&gt;
+
+&lt;p&gt;Although my teammate and I didn’t crack the final cipher, the night was still a resounding success for me. I was engrossed in trying to solve the problem and was having a blast failing and trying something new.   &lt;/p&gt;
+
+&lt;p&gt;A thought that occurred to me on the night was that we were using the Ruby language in a way that I’d never even thought of. Previous to tonight, I thought that Ruby could only be used for specific things to do with web development, yet here we were messing around with cryptography challenges.&lt;/p&gt;
+
+&lt;p&gt;That evening forced me to keep an open mind about the things I could try and do with Ruby code and definitely reiterated the fact that there was obviously so much more that I needed to learn. There was a long road ahead but I had now joined a friendly group of like minded people who I could learn from.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Pushing Beyond Uncertainty - Part 2</title>
     <link rel="alternate" href="http://blog.url.com/2016/01/31/pushing-beyond-uncertainty-part2/"/>
